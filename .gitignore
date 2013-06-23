@@ -1,6 +1,53 @@
-*.class
+# OS X goodies
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
 
-# Package Files #
+# Java settings
+*.class
 *.jar
 *.war
 *.ear
+
+# IntelliJ Idea settings
+
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Eclipse settings
+
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# Maven
+target/
