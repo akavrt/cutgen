@@ -10,9 +10,9 @@ import java.util.List;
  */
 public class Problem {
     private final List<Order> orders;
-    private final long stockLength;
+    private final int stockLength;
 
-    public Problem(List<Order> orders, long stockLength) {
+    public Problem(List<Order> orders, int stockLength) {
         this.orders = new ArrayList<Order>();
 
         if (orders != null) {
@@ -38,7 +38,7 @@ public class Problem {
         orders.add(order);
     }
 
-    public long getStockLength() {
+    public int getStockLength() {
         return stockLength;
     }
 }

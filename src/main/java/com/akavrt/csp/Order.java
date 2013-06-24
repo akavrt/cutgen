@@ -6,19 +6,19 @@ package com.akavrt.csp;
  * @author Victor Balabanov <akavrt@gmail.com>
  */
 public class Order {
-    private final long length;
-    private final long quantity;
+    private final int length;
+    private final int demand;
 
-    public Order(long length, long quantity) {
+    public Order(int length, int demand) {
         this.length = length;
-        this.quantity = quantity;
+        this.demand = demand;
     }
 
-    public long getLength() {
+    public int getLength() {
         return length;
     }
 
-    public long getQuantity() {
-        return quantity;
+    public int getDemand() {
+        return demand;
     }
 }

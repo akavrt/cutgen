@@ -3,12 +3,15 @@ package com.akavrt.csp.cutgen;
 import java.util.Arrays;
 
 /**
- * User: akavrt
- * Date: 23.06.13
- * Time: 22:04
+ * @author Victor Balabanov <akavrt@gmail.com>
  */
 public class Utils {
 
+    /**
+     * <p>Sorts the specified array of ints into descending numerical order.</p>
+     *
+     * @param a The array to be sorted.
+     */
     public static void descendingSort(int[] a) {
         // sort array in ascending order
         Arrays.sort(a);
