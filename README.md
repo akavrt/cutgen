@@ -4,8 +4,7 @@ CUTGEN1-J
 A Java port of the CUTGEN1 - problem generator for the standard one-dimensional
 cutting stock problem (1D SSSCSP) originally developed by Gau and Wascher (1995).
 
-Original Fortran source code can be obtained through ESICUP official website
-(see Problem Generators section on the left):
+Original source code written in Fortran can be obtained through ESICUP website:
 
 http://paginas.fe.up.pt/~esicup
 
