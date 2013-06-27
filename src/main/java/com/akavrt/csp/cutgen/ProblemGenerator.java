@@ -56,7 +56,7 @@ public class ProblemGenerator {
 
         double lb = descriptors.getOrderLengthLowerBound();
         double ub = descriptors.getOrderLengthUpperBound();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < result.length; i++) {
             double rValue = rGen.nextDouble();
             double length = (lb + (ub - lb) * rValue) * descriptors.getStockLength() + rValue;
 
